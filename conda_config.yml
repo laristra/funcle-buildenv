@@ -1,19 +1,14 @@
-name: test-environment
+name: funcle
 channels:
   - conda-forge
 dependencies:
   - python = 3.7
-  - scipy >= 1.2
+  - scipy > 1.0
   - numpy
   - matplotlib
   - flake8
   - sphinx
   - cython
-  - graphviz
-  - pytest
-  - pytest-cov
   - sphinxcontrib-bibtex
   - pint
-  - pip
   - cvxopt
-  - pyyaml
