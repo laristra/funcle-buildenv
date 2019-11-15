@@ -4,7 +4,7 @@ WORKDIR /tmp
 COPY conda_config.yml /tmp/
 
 RUN apt-get update
-RUN apt-get --yes install texlive-full texlive-science openmpi-bin
+RUN apt-get --yes install texlive-full texlive-science
 RUN wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
 RUN bash miniconda.sh -b -p /tmp/miniconda
 ENV PATH="/tmp/miniconda/bin:$PATH"
