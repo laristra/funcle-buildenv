@@ -12,3 +12,5 @@ dependencies:
   - sphinxcontrib-bibtex
   - pint
   - cvxopt
+  - coverage
+  - graphviz
