@@ -14,3 +14,4 @@ dependencies:
   - cvxopt
   - coverage
   - graphviz
+  - pylint
