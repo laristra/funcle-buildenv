@@ -10,7 +10,7 @@ dependencies:
   - sphinx
   - cython
   - sphinxcontrib-bibtex
-  - pint
+  - pint >= 0.10
   - cvxopt
   - coverage
   - graphviz
